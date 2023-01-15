@@ -200,8 +200,8 @@ body {
     width: 100%;
 }
 .container .box{
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    min-height:320px;
     margin: 20px;
     background: rgb(25, 25, 25);
     margin-top: 5vh;
@@ -214,14 +214,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px 10px;
     text-align: center;
 }
 .container .box .bocContent .icon{
     color: #8293ff;
 }
-.container .box .boxContent h1{
-    margin-top: 10px;
+.container .box .boxContent h4{
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 .info-heading {
